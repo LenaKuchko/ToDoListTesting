@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoXUnitTest", "src\ToDoXUnitTest\ToDoXUnitTest.xproj", "{B5FCED14-BBF4-48D5-8D46-D7C718DB2F1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78A2EEFB-AF91-4384-BBCC-C89A46B34CFC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoList.Tests", "ToDoList.Tests\ToDoList.Tests.xproj", "{BEBC5E38-82EA-4549-BB87-FF37FC3F5851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{B5FCED14-BBF4-48D5-8D46-D7C718DB2F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5FCED14-BBF4-48D5-8D46-D7C718DB2F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5FCED14-BBF4-48D5-8D46-D7C718DB2F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBC5E38-82EA-4549-BB87-FF37FC3F5851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBC5E38-82EA-4549-BB87-FF37FC3F5851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBC5E38-82EA-4549-BB87-FF37FC3F5851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBC5E38-82EA-4549-BB87-FF37FC3F5851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B5FCED14-BBF4-48D5-8D46-D7C718DB2F1D} = {843A9F6A-38D0-4E69-A3B8-7B182AF2D1B3}
+		{BEBC5E38-82EA-4549-BB87-FF37FC3F5851} = {78A2EEFB-AF91-4384-BBCC-C89A46B34CFC}
 	EndGlobalSection
 EndGlobal
