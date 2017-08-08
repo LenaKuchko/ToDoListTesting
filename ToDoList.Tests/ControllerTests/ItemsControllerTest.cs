@@ -12,7 +12,7 @@ using ToDoList.Controllers;
 
 namespace ToDoList.Tests.ControllerTests
 {
-    public class ItemsControllerTest
+    public class ItemsControllerTest : IDisposable
     {
         Mock<IItemRepository> mock = new Mock<IItemRepository>();
 
@@ -90,5 +90,10 @@ namespace ToDoList.Tests.ControllerTests
             Assert.Contains<Item>(testItem, collection);
         }
 
+        public void Dispose()
+        {
+
+            db.ClearAll(db.Items);
+        }
     }
 }

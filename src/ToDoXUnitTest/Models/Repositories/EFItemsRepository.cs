@@ -45,9 +45,10 @@ namespace ToDoXUnitTest.Models.Repositories
             db.SaveChanges();
         }
 
-        public void ClearAll()
+        public void ClearAll(IQueryable<Item> items)
         {
-            
+            db.Items.RemoveRange(items);
+            db.SaveChanges();
         }
     }
 }

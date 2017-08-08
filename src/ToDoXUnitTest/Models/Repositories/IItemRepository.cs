@@ -11,5 +11,6 @@ namespace ToDoXUnitTest.Models.Repositories
         Item Save(Item item);
         Item Edit(Item item);
         void Remove(Item item);
+        void ClearAll(IQueryable<Item> items);
     }
 }
